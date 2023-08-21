@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Titulo {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #fffc00;
+
+    background: linear-gradient(to right, #ffffff, #ebe82c72), url(../Imagen/portada.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .Textos-Header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Textos-Header h1 {
+    font-size: 50px;
+
+}
+
+.Textos-Header h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.ilustracion2 {
+    size: 50%;
+    width: 50%;
+
+
+}
+
+
+
+.contenedor-sobre-nosotros .contenido-textos {
+
+    width: 48%;
+
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background-color: #fffc00;
+    color: rgb(244, 75, 75);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+
+}
+
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.contenedor-mision-vision{
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    
+}
+ .contenedor-mision-vision .titulo-contenido{
+
+   
+   margin-bottom: 10%;
+   text-align: center;
+   margin-right: 13%;
+  
+ }
+ .contenedor-mision-vision .titulo-contenido h3{
+    margin-bottom: 10px;
+ }
+
+.contenedor-mision-vision .titulo-contenido .imagen-port{
+   margin-left: 33%;
+ 
+   
+  
+   
+
+ }
+
+
+
+
+
+.Portafolio {
+    background-color: #f3f2f2;
+}
+
+.galeria-port {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port {
+
+    width: 24%;
+    margin-bottom: 10px;
+
+}
+
+.imagen-port>img {
+    margin: 30px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.hover-galeria-port {
+    position: absolute;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    padding-bottom: 100px;
+    border-bottom: 3px solid rgb(255, 208, 0);
+}
+
+.cards .card {
+    background: #92909072;
+    display: flex;
+    width: 300px;
+    height: 130px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 16px;
+
+
+
+}
+
+.cards .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.cards .card .contenido-texto-card {
+    width: 60%;
+    color: rgb(6, 6, 6);
+}
+
+
+
+
+.card .contenido-texto-card p {
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+
+
+.SOBRE-SERVICIOS {
+    background: rgb(243, 244, 245);
+    padding-bottom: 30px;
+}
+
+.titulo-footer{
+    text-align: center;
+    margin: 0;
+}
+
+.servicio-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind {
+    width: 28%;
+    text-align: center;
+
+
+}
+
+.servicio-ind img {
+    width: 130%;
+    
+}
+
+
+.servicio-ind img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.servicio-ind h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.servicio-ind1 h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.servicio-ind1 p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+footer{
+    background: grey;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content:space-evenly ;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #f3f2f2;
+    border-bottom: 3px solid rgb(255, 251, 0);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+   color: #ffffff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color: aliceblue;
+}

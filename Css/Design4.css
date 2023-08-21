@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+
+
+
+    background: linear-gradient(to right, #007991, #78ffd6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 600px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.imagen-logo img {
+  width: 10%;
+}
+ 
+.line{
+    width: 81%;
+    text-align: center;
+    border-bottom: 2px solid rgb(20, 255, 204);
+    margin:  100px 100px 100px 100px;
+ 
+    
+
+}
+
+.imagen-logo {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10%;
+
+   
+}
+.imagen-logo > * {
+    margin: 4px; /* Esto eliminará los márgenes de todos los elementos hijos directos de .imagen-logo */
+ }
+ 
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+header .Textos-Header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Textos-Header h1 {
+    color: white;
+    font-size: 50px;
+
+}
+
+ .contenedor-boda .servicio-boda img{
+    width: 40%;
+    border-style: double;
+    margin-bottom: 8px;
+}
+
+.contenedor-xv .servicio-xv img{
+    width: 29%;
+    border-style: double;
+    margin-bottom: 10px;
+}
+
+.contenedor-producto .servicio-producto img{
+    border-style: double;
+    width: 40%;
+    margin-bottom: 39px;
+} 
+
+
+
+.contenedor-producto .contenido-producto p{
+    text-align: justify;
+line-height: 1.5;
+padding-left: 15%;
+}
+
+.contenedor-producto .contenido-producto h4{
+    text-align: justify;
+line-height: 1.5;
+padding-left: 15%;
+}
+
+.contenedor-xv .contenido-xv p{
+    text-align: left;
+line-height: 1.5;
+padding-left: 15%;
+}
+
+.contenedor-xv .contenido-xv h4{
+    text-align: left;
+line-height: 1.5;
+padding-left: 15%;
+}
+
+
+
+.contenedor-boda .contenido-servicioboda p{
+    text-align: left;
+line-height: 1.5;
+padding-left: 15%;
+}
+
+.contenedor-boda .contenido-servicioboda h4{
+    text-align: left;
+line-height: 1.5;
+padding-left: 15%;
+}
+
+
+.contenido-servicioboda h2{
+    margin-bottom: 30px;
+}
+
+.contenido-xv h2{
+    margin-bottom: 30px;
+}
+
+.contenido-producto h2{
+    margin-bottom: 30px;
+}
+
+
+.cont{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.WA{
+    text-align: center;
+    margin-top: 15%;
+   
+}
+.WA img{
+    width: 5%;
+}
+
+
+footer{
+    background: grey;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer{
+
+    display: flex;
+    width: 90%;
+    justify-content:space-evenly ;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #f3f2f2;
+    border-bottom: 3px solid rgb(255, 251, 0);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+   color: #ffffff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+    color: aliceblue;
+}
+
+
+
+
+

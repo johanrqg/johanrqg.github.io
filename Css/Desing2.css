@@ -1,0 +1,202 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden ;}
+
+header{
+   
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 600px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.imagen-logo img{
+    width: 5%;
+   
+
+}
+
+.imagen-logo {
+    text-align: center;
+    margin-bottom: 15%;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a {
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+header .Textos-Header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.Textos-Header h1 {
+    font-size: 50px;
+    color: white;
+
+}
+
+
+.Titulo-boda{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Boda .Fotos-boda{
+ display: flex;
+ justify-content: space-between;
+
+}
+
+
+
+.img-bodas {
+    height: 250px;
+    width: 25%;  /* Cada div que contiene una imagen tomará el 25% del ancho del contenedor */
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+.Boda .Fotos-boda img {
+    width: 100%;
+    height: 100%; 
+    display: block; 
+    object-fit: cover; /* Esto asegura que la imagen cubra completamente el contenedor sin distorsionarse */
+    object-position: center; }
+
+    /* Fotos de productos */
+    .productos{
+        margin-top: 15px;
+    }
+
+    .productos .Titulo-Producto{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.productos .Fotos-productos{
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.img-producto{
+    height: 250px;
+    width: 25%;  /* Cada div que contiene una imagen tomará el 25% del ancho del contenedor */
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+.productos .Fotos-productos img {
+    width: 100%;
+    height: 100%; 
+    display: block; 
+    object-fit: cover; /* Esto asegura que la imagen cubra completamente el contenedor sin distorsionarse */
+    object-position: center; }
+
+    
+
+     /* Fotos de xvaños */
+
+     .Fotos-xv .Titulo-xvanios{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .Fotos-xv .Fotos-xvanios{
+     display: flex;
+     justify-content: space-between;
+    
+    }
+    
+    .img-xv-anios{
+        height: 250px;
+        width: 25%;  /* Cada div que contiene una imagen tomará el 25% del ancho del contenedor */
+        box-sizing: border-box; 
+        overflow: hidden;
+    }
+    
+    .Fotos-xv .Fotos-xvanios img {
+        width: 100%;
+        height: 100%; 
+        display: block; 
+        object-fit: cover; /* Esto asegura que la imagen cubra completamente el contenedor sin distorsionarse */
+        object-position: center; }
+
+        .Fotos-xv{
+         margin-top: 15px;
+         margin-bottom: 30px;
+         
+
+        }
+
+        footer{
+            background: grey;
+            padding: 60px 0 30px 0;
+            margin: auto;
+            overflow: hidden;
+        
+        }
+        
+        .contenedor-footer{
+        
+            display: flex;
+            width: 90%;
+            justify-content:space-evenly ;
+            margin: auto;
+            padding-bottom: 50px;
+            border-bottom: 1px solid rgb(255, 255, 255);
+        }
+        
+        .content-foo{
+            text-align: center;
+        }
+        .content-foo h4{
+            color: #f3f2f2;
+            border-bottom: 3px solid rgb(255, 251, 0);
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .content-foo p{
+           color: #ffffff;
+        }
+        
+        .titulo-final{
+            text-align: center;
+            font-size: 20px;
+            margin: 20px 0;
+            color: aliceblue;
+        }
